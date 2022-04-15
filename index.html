@@ -277,6 +277,12 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 infospotlorongcinema12.addEventListener('click', function(){
 viewer.setPanorama( balkrid );
 });
+var infospotlorongcinema13 = new PANOLENS.Infospot( 512, hotspotIcons[5].data, true );
+							infospotlorongcinema13.position.set( -2289.93, -1378.11, -4215.67 );
+							lorongcinema1.add(infospotlorongcinema13);
+infospotlorongcinema13.addEventListener('click', function(){
+viewer.setPanorama( cinema1 );
+});
 viewer.add( lorongcinema1 );
 var lorongcinema2 = new PANOLENS.ImagePanorama( "panoramas/lorongcinema2.jpg" );
 						lorongcinema2.addEventListener('progress', function(e){
@@ -299,6 +305,11 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 							lorongcinema2.add(infospotlorongcinema21);
 infospotlorongcinema21.addEventListener('click', function(){
 viewer.setPanorama( lorongcinema1 );
+});
+var infospotlorongcinema22 = new PANOLENS.Infospot( 512, hotspotIcons[5].data, true );
+							infospotlorongcinema22.position.set( -4733.45, -1473.57, 599.20 );
+							lorongcinema2.add(infospotlorongcinema22);
+infospotlorongcinema22.addEventListener('click', function(){
 });
 viewer.add( lorongcinema2 );
 var lorongdepanro = new PANOLENS.ImagePanorama( "panoramas/lorongdepanro.jpg" );
@@ -373,7 +384,7 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 							infospottanggakegreenroof0.position.set( -3399.13, 1205.16, -3452.03 );
 							tanggakegreenroof.add(infospottanggakegreenroof0);
 infospottanggakegreenroof0.addEventListener('click', function(){
-viewer.setPanorama( greenroofnew );
+viewer.setPanorama( greenroofnewisI95 );
 });
 var infospottanggakegreenroof1 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
 							infospottanggakegreenroof1.position.set( -615.39, -2585.59, 4228.19 );
@@ -453,7 +464,7 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 							infospotdepanmushola0.position.set( -4900.68, -844.90, -482.34 );
 							depanmushola.add(infospotdepanmushola0);
 infospotdepanmushola0.addEventListener('click', function(){
-viewer.setPanorama( kantin );
+viewer.setPanorama( kantinBgXQE );
 });
 var infospotdepanmushola1 = new PANOLENS.Infospot( 512, hotspotIcons[5].data, true );
 							infospotdepanmushola1.position.set( 4910.46, 33.34, 906.67 );
@@ -565,6 +576,12 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 infospotlapangan3.addEventListener('click', function(){
 viewer.setPanorama( lapangankecil );
 });
+var infospotlapangan4 = new PANOLENS.Infospot( 512, hotspotIcons[5].data, true );
+							infospotlapangan4.position.set( 817.19, -137.34, 4920.50 );
+							lapangan.add(infospotlapangan4);
+infospotlapangan4.addEventListener('click', function(){
+viewer.setPanorama( hotel );
+});
 viewer.add( lapangan );
 var lapangankecil = new PANOLENS.ImagePanorama( "panoramas/lapangankecil.jpg" );
 						lapangankecil.addEventListener('progress', function(e){
@@ -597,7 +614,7 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 							infospotlorong4090.position.set( -1904.31, -662.17, -4566.74 );
 							lorong409.add(infospotlorong4090);
 infospotlorong4090.addEventListener('click', function(){
-viewer.setPanorama( greenroofnew );
+viewer.setPanorama( greenroofnewisI95 );
 });
 var infospotlorong4091 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
 							infospotlorong4091.position.set( -259.08, -3318.22, 3722.84 );
@@ -690,7 +707,7 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 							infospottanggammd3.position.set( -4415.33, -634.70, -2235.76 );
 							tanggammd.add(infospottanggammd3);
 infospottanggammd3.addEventListener('click', function(){
-viewer.setPanorama( labmmd );
+viewer.setPanorama( labmmdnew2 );
 });
 viewer.add( tanggammd );
 var tanggapendopo = new PANOLENS.ImagePanorama( "panoramas/tanggapendopo.jpg" );
@@ -819,6 +836,195 @@ var viewer = new PANOLENS.Viewer( { container: container , controlBar: true,  ou
 viewer.setPanorama( tanggarpl );
 });
 viewer.add( labrpl );
+var cinema1 = new PANOLENS.ImagePanorama( "panoramas/cinema1.jpg" );
+						cinema1.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						cinema1.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						cinema1.addEventListener('click', function(e){
+						});
+
+var infospotcinema10 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
+							infospotcinema10.position.set( -3011.05, -283.54, -3972.36 );
+							cinema1.add(infospotcinema10);
+infospotcinema10.addEventListener('click', function(){
+viewer.setPanorama( cinema2 );
+});
+viewer.add( cinema1 );
+var cinema2 = new PANOLENS.ImagePanorama( "panoramas/cinema2.jpg" );
+						cinema2.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						cinema2.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						cinema2.addEventListener('click', function(e){
+						});
+
+var infospotcinema20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+							infospotcinema20.position.set( 4780.24, -834.82, 1174.02 );
+							cinema2.add(infospotcinema20);
+infospotcinema20.addEventListener('click', function(){
+viewer.setPanorama( lorongcinema1 );
+});
+var infospotcinema21 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
+							infospotcinema21.position.set( 4004.33, -1239.80, -2710.85 );
+							cinema2.add(infospotcinema21);
+infospotcinema21.addEventListener('click', function(){
+viewer.setPanorama( cinema1 );
+});
+viewer.add( cinema2 );
+var greenroofnewisI95 = new PANOLENS.ImagePanorama( "panoramas/greenroofnewisI95.jpg" );
+						greenroofnewisI95.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						greenroofnewisI95.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						greenroofnewisI95.addEventListener('click', function(e){
+						});
+
+var infospotgreenroofnewisI950 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
+							infospotgreenroofnewisI950.position.set( -2013.01, -103.48, -4571.31 );
+							greenroofnewisI95.add(infospotgreenroofnewisI950);
+infospotgreenroofnewisI950.addEventListener('click', function(){
+viewer.setPanorama( tanggakegreenroof );
+});
+var infospotgreenroofnewisI951 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
+							infospotgreenroofnewisI951.position.set( -2400.15, -269.13, 4369.15 );
+							greenroofnewisI95.add(infospotgreenroofnewisI951);
+infospotgreenroofnewisI951.addEventListener('click', function(){
+viewer.setPanorama( lorong409 );
+});
+viewer.add( greenroofnewisI95 );
+var hotel = new PANOLENS.ImagePanorama( "panoramas/hotel.jpg" );
+						hotel.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						hotel.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						hotel.addEventListener('click', function(e){
+						});
+
+var infospothotel0 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
+							infospothotel0.position.set( -4661.80, -1265.90, 1253.53 );
+							hotel.add(infospothotel0);
+infospothotel0.addEventListener('click', function(){
+viewer.setPanorama( lapangan );
+});
+var infospothotel1 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
+							infospothotel1.position.set( 3959.78, 122.99, -3036.60 );
+							hotel.add(infospothotel1);
+infospothotel1.addEventListener('click', function(){
+viewer.setPanorama( hotel2 );
+});
+viewer.add( hotel );
+var hotel2 = new PANOLENS.ImagePanorama( "panoramas/hotel2.jpg" );
+						hotel2.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						hotel2.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						hotel2.addEventListener('click', function(e){
+						});
+
+var infospothotel20 = new PANOLENS.Infospot( 512, hotspotIcons[7].data, true );
+							infospothotel20.position.set( -348.93, -615.54, 4939.88 );
+							hotel2.add(infospothotel20);
+infospothotel20.addEventListener('click', function(){
+viewer.setPanorama( hotel );
+});
+var infospothotel21 = new PANOLENS.Infospot( 512, hotspotIcons[7].data, true );
+							infospothotel21.position.set( 736.55, -87.88, -4935.24 );
+							hotel2.add(infospothotel21);
+infospothotel21.addEventListener('click', function(){
+viewer.setPanorama( hotel3 );
+});
+viewer.add( hotel2 );
+var hotel3 = new PANOLENS.ImagePanorama( "panoramas/hotel3.jpg" );
+						hotel3.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						hotel3.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						hotel3.addEventListener('click', function(e){
+						});
+
+var infospothotel30 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
+							infospothotel30.position.set( 4475.05, -2152.86, 529.77 );
+							hotel3.add(infospothotel30);
+infospothotel30.addEventListener('click', function(){
+viewer.setPanorama( hotel2 );
+});
+viewer.add( hotel3 );
+var kantinBgXQE = new PANOLENS.ImagePanorama( "panoramas/kantinBgXQE.jpg" );
+						kantinBgXQE.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						kantinBgXQE.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						kantinBgXQE.addEventListener('click', function(e){
+						});
+
+var infospotkantinBgXQE0 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+							infospotkantinBgXQE0.position.set( 4111.39, -406.08, -2805.58 );
+							kantinBgXQE.add(infospotkantinBgXQE0);
+infospotkantinBgXQE0.addEventListener('click', function(){
+viewer.setPanorama( lapangan );
+});
+var infospotkantinBgXQE1 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
+							infospotkantinBgXQE1.position.set( -4766.86, -326.25, -1452.40 );
+							kantinBgXQE.add(infospotkantinBgXQE1);
+infospotkantinBgXQE1.addEventListener('click', function(){
+viewer.setPanorama( depanmushola );
+});
+viewer.add( kantinBgXQE );
+var labmmdnew2 = new PANOLENS.ImagePanorama( "panoramas/labmmdnew2.jpg" );
+						labmmdnew2.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						labmmdnew2.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						labmmdnew2.addEventListener('click', function(e){
+						});
+
+var infospotlabmmdnew20 = new PANOLENS.Infospot( 512, hotspotIcons[2].data, true );
+							infospotlabmmdnew20.position.set( 4912.91, 30.21, 892.02 );
+							labmmdnew2.add(infospotlabmmdnew20);
+infospotlabmmdnew20.addEventListener('click', function(){
+viewer.setPanorama( tanggammd );
+});
+viewer.add( labmmdnew2 );
+var tataboga = new PANOLENS.ImagePanorama( "panoramas/tataboga.jpg" );
+						tataboga.addEventListener('progress', function(e){
+							$("#loading").show();
+						});
+						tataboga.addEventListener('load', function(e){
+							$("#loading").fadeOut();
+						});
+						tataboga.addEventListener('click', function(e){
+						});
+
+var infospottataboga0 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+							infospottataboga0.position.set( 4919.70, -97.33, 832.27 );
+							tataboga.add(infospottataboga0);
+infospottataboga0.addEventListener('click', function(){
+viewer.setPanorama( bawahro );
+});
+var infospottataboga1 = new PANOLENS.Infospot( 512, hotspotIcons[8].data, true );
+							infospottataboga1.position.set( 2024.56, -124.99, -4565.98 );
+							tataboga.add(infospottataboga1);
+infospottataboga1.addEventListener('click', function(){
+viewer.setPanorama( lorongcinema2 );
+});
+viewer.add( tataboga );
 $(document).ready(function(){ viewer.setPanorama( gerbang ); });
 
 /*panoramas-end*/
